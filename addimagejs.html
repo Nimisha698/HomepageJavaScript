@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Gallery</title>
+    <h1><center>Gallery</center></h1>
+</head>
+<body>
+<form method="get" action="mygalleryjs.html">
+<strong>Enter image url</strong><input type="text" name="url" id="url" required>
+<br>
+<br>
+<strong>Enter name of the image</strong><input type="text" name="name" id="name" required>
+<br>
+<br>
+<strong>Enter image info</strong><input type="text" name="info" id="info" required>
+<br>
+<br>
+<strong>Enter the upload date(yyyy/mm/dd)</strong><input type="text" name="uploaddate" id="uploaddate" required>
+<br>
+<br>
+<input type="submit" id="submit" name="submit" onClick="addimage()" value="Add Image"></input>
+</form>
+</body>
+</html>
